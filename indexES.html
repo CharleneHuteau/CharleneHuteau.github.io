@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <title>Huteau Fernández Traducciones</title>
+      <!-- ¡¡¡¡¡¡¡ TODO UNCOMMENT THIS LINE BEFORE UPLOAD TO SERVER:!!!!!!-->
+      <!--base href="http://nativetranslator.net/" /-->
+      <meta name="viewport" content="width=992">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="generator" content="Zyro - Website Builder">
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="js/main.js" type="text/javascript"></script>
+      <link href="css/site.css?v=1.0.13" rel="stylesheet" type="text/css">
+      <link href="css/common.css?ts=1439223137" rel="stylesheet" type="text/css">
+      <link href="css/3.css?ts=1439223137" rel="stylesheet" type="text/css">
+      <script type="text/javascript">var currLang = 'es';</script>		
+      <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+			  <script type="text/javascript"> 
+					//Variables:
+					var currentTab= 'bodyHome'; //Default current tab, it can be: bodyAboutMe bodyContact too.
+					
+					
+					function getUrlParameter(name) {
+						name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+						var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+							results = regex.exec(location.search);
+						return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+					}
+			  
+					/** Load a different language html file**/
+					 function loadLang(lang){
+						if(!lang){
+							 lang= "";
+						}
+						document.location.href = "index"+lang+".html?tab="+currentTab;
+					 }
+					 
+					/** Navigate to a different tab **/
+					 function navigate (clickedButton) {
+						if(!clickedButton){
+							clickedButton= 'bodyHome';
+						}
+						//Show only selected body.
+						$(".bodyContent").css(
+							"visibility", "hidden"
+						  );
+						$("#"+clickedButton ).css(
+							"visibility", "visible"
+						  );
+						  //Add active color only in the selected one.
+						$(".hmenuEntry").removeClass("active");
+						$("#item"+clickedButton).addClass("active");
+						currentTab= clickedButton;
+						//Refresh url bar
+						/*var url = location.href;
+						
+						var newUrl= url.split("?")[0]+"?tab="+clickedButton;
+						console.log(url);
+						console.log(newUrl);
+						if(newUrl!=url){
+							location.href= newUrl;
+						}*/
+					 }
+					 
+					//Ready
+					$(function() {
+						var tab= getUrlParameter("tab");
+						navigate(tab);
+					});
+			  </script>
+   </head>
+   <body>
+      <div class="root">
+		 <!-- Top menu -->
+         <div class="vbox wb_container" id="wb_header">
+            <div id="wb_element_instance82" class="wb_element">
+               <ul class="hmenu">
+				  <li id="itembodyHome" class="hmenuEntry"><a href="javascript:;" onClick="navigate('bodyHome')" title="Home">Inicio</a></li>
+                  <li id="itembodyAboutMe" class="hmenuEntry"><a href="javascript:;" onClick="navigate('bodyAboutMe')" title="About me">¿Quién soy?</a></li>
+                  <li id="itembodyContact" class="hmenuEntry active"><a href="javascript:;" onClick="navigate('bodyContact')" title="Contact me">Contacto</a></li>
+               </ul>
+            </div>
+            <div id="wb_element_instance69" class="wb_element" style=" line-height: normal;">
+               <h4 class="wb-stl-pagetitle"><span style="color:#ffffff;">Huteau Fernández Traducciones</span></h4>
+            </div>
+            <div id="wb_element_instance70" class="wb_element"><a href="http://www.proz.com/profile/1977748" target="1"><img alt="" src="gallery/1825cf99dd0d7b6f8789b5daa2b7a89c_120x50.png"></a></div>
+            <div id="wb_element_instance71" class="wb_element"><a href="https://www.linkedin.com/pub/charl%C3%A8ne-huteau/60/753/33a/en" target="1"><img alt="" src="gallery/ca6e92d20e901cc76d47ffa761b4e6b8_50x50.png"></a></div>
+            <div id="wb_element_instance72" class="wb_element">
+               <div data-type="flags" class="lang-selector langs_flags"><a href="javascript:;" onClick="loadLang();" title="English" data-lang="en"><i class="ico-lang-uk"></i></a><a href="javascript:;" onClick="loadLang('ES');" title="Español" data-lang="es"><i class="ico-lang-es"></i></a><a href="javascript:;" onClick="loadLang('FR');" title="Français" data-lang="fr"><i class="ico-lang-fr"></i></a></div>
+            </div>
+         </div>
+         
+         <!-- Home body -->
+         <div class="vbox wb_container bodyContent" id="bodyHome" style=" visibility: hidden;">
+		   <div id="wb_element_instance5" class="wb_element" style=" line-height: normal;">
+			  <h1 class="wb-stl-heading1"><span style="color:#000000;">Traductora autónoma </span></h1> <h1 class="wb-stl-heading1"><span style="color:#000000;">inglés y español al&nbsp;<span style="color:#8a234c;">francés</span></span></h1>
+		   </div>
+		   <div id="wb_element_instance6" class="wb_element" style=" line-height: normal;">
+			  <h4 class="wb-stl-pagetitle"><span style="color:#000000;">Marketing</span><span style="color:#363536;"> · Páginas web· Anuncios· Folletos</span></h4>
+			  <h4 class="wb-stl-pagetitle"><span style="color:#000000;">Industria alimentaria&nbsp;</span><span style="color:#363536;">· Etiquetas de alimentos&nbsp;</span></h4>
+			  <h4 class="wb-stl-pagetitle"><span style="color:#000000;">Textiles</span><span style="color:#363536;"> · Etiquetas de ropa · Moda</span></h4>
+			  <h4 class="wb-stl-pagetitle"><font color="#000000">Niños&nbsp;</font><span style="color:#363536;">· Juguetes&nbsp;· Productos para niños y bebés</span></h4>
+		   </div>
+		</div>
+         
+		 <!-- AboutMe body -->
+         <div class="vbox wb_container bodyContent" id="bodyAboutMe" style=" visibility: hidden;">
+		   <div id="wb_element_instance36" class="wb_element" style=" line-height: normal;">
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>Me llamo Charlène, soy&nbsp;<span style="color:#8a234c;">Traductora autónoma,&nbsp;</span></b></span></font><b style="line-height: 26px; color: rgb(33, 33, 33); font-size: large;">hago traducciones de inglés y español a francés, mi lengua materna.&nbsp;</b></p>
+			  <p class="wb-stl-normal"><b style="line-height: 26px; color: rgb(33, 33, 33); font-size: large;">Nací en Francia&nbsp;pero desde hace 5 años he vivido en diferentes países: Canadá, Reino&nbsp;Unido, Letonia y ahora España.</b></p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>Obtuve un&nbsp;<span style="color:#8a234c;">Master&nbsp;en Traducción </span>en la Universidad Católica del Oeste, Angers (Francia).</b></span></font></p>
+		   </div>
+		   <div id="wb_element_instance37" class="wb_element" style=" line-height: normal;">
+			  <h5 class="wb-stl-subtitle"><span class="wb-stl-special">¿Quién soy?</span></h5>
+		   </div>
+		   <div id="wb_element_instance38" class="wb_element" style=" line-height: normal;">
+			  <h5 class="wb-stl-subtitle"><font color="#000000"><span style="font-size: 65px; line-height: 20px;"><b>Mi trabajo</b></span></font></h5>
+		   </div>
+		   <div id="wb_element_instance39" class="wb_element" style=" line-height: normal;">
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>Estoy especializada en&nbsp;<span style="color:#8a234c;">etiquetas de alimentos y ropa,</span>&nbsp;he traducido muchas listas de ingredientes y fibras textiles.</b></span></font></p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>En este sector, he realizado grandes traducciones, entre las que cabe destacar una gama completa de productos y etiquetas para <em>Paul Smith</em> (32&nbsp;000 palabras) y una gama de productos de alimentación para&nbsp;<em>Costa Coffee</em> (30&nbsp;000 palabras).</b></span></font></p>
+			  <p class="wb-stl-normal">&nbsp;</p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>Estoy también especializada en<span style="color:#8a234c;">&nbsp;productos para bebés y niños</span>. </b></span></font></p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>He traducido diferentes descripciones, etiquetas y manuales de instrucciones de productos para bebés y niños&nbsp;tales como&nbsp;cochecitos, juguetes, etc. </b></span></font></p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>He trabajado principalmente para&nbsp;<em>Mothercare</em> y&nbsp;<em>ELC (early learning centre)</em>.</b></span></font></p>
+			  <p class="wb-stl-normal">&nbsp;</p>
+			  <p class="wb-stl-normal"><font color="#212121" size="4"><span style="line-height: 26px;"><b>También traduzco documentos de&nbsp;<span style="color:#8a234c;">marketing general: </span>comunicados de prensa, anuncios, folletos, etc.</b></span></font></p>
+		   </div>
+		</div>
+         
+         <!-- Contact body -->
+         <div class="vbox wb_container bodyContent" id="bodyContact">
+            <div id="wb_element_instance37" class="wb_element" style=" line-height: normal;">
+               <h5 class="wb-stl-subtitle"><span class="wb-stl-special">Contacto</span></h5>
+            </div>
+            <div id="wb_element_instance74" class="wb_element">
+               <form action="MAILTO:charlene.huteau@outlook.com?subject=CharleneHuteauTranslations"  enctype="text/plain" class="wb_form" method="post">
+                  <table>
+                     <tr>
+                        <th class="wb-stl-highlight">Nombre</th>
+                        <td><input class="form-field" type="text" name="Name"></td>
+                     </tr>
+                     <tr>
+                        <th class="wb-stl-highlight">Email</th>
+                        <td><input class="form-field" type="text" name="email"></td>
+                     </tr>
+                     <tr class="area-row">
+                        <th class="wb-stl-highlight">Mensaje</th>
+                        <td><textarea class="form-field form-area-field" rows="3" cols="20" name="message"></textarea></td>
+                     </tr>
+                        <tr class="form-footer">
+                           <td colspan="2"><button type="submit" class="btn">Enviar</button></td>
+                        </tr>
+                  </table>
+               </form>
+            </div>
+            <div id="wb_element_instance75" class="wb_element" style=" line-height: normal;">
+               <p><font color="#212121" face="Open Sans, sans-serif" size="4"><span style="line-height: 26px;"><strong>Email</strong><b>: </b></span></font><em><b style="line-height: 26px; color: rgb(33, 33, 33); font-family: 'Open Sans', sans-serif; font-size: large;">charlene.huteau@outlook.com</b></em></p>
+               <p><b style="line-height: 26px; color: rgb(33, 33, 33); font-family: 'Open Sans', sans-serif; font-size: large;">Skype: </b><b style="line-height: 26px; color: rgb(33, 33, 33); font-family: 'Open Sans', sans-serif; font-size: large;"><em>charlenehuteau</em></b></p>
+            </div>
+            <div id="wb_element_instance76" class="wb_element" style=" line-height: normal;">
+               <p><font color="#212121" face="Open Sans, sans-serif" size="4"><span style="line-height: 26px;"><b>LinkedIn</b></span></font></p>
+               <p><font color="#212121" face="Open Sans, sans-serif" size="4"><span style="line-height: 26px;"><b>ProZ</b></span></font></p>
+            </div>
+            <div id="wb_element_instance77" class="wb_element"><a href="http://www.proz.com/profile/1977748" target="1"><img alt="" src="gallery/1825cf99dd0d7b6f8789b5daa2b7a89c_120x50.png"></a></div>
+            <div id="wb_element_instance78" class="wb_element"><a href="https://www.linkedin.com/pub/charl%C3%A8ne-huteau/60/753/33a/en" target="1"><img alt="" src="gallery/ca6e92d20e901cc76d47ffa761b4e6b8_50x50.png"></a></div>
+            <div id="wb_element_instance79" class="wb_element" style=" line-height: normal;">
+               <p class="wb-stl-normal"><span class="wb-stl-highlight">Si usted está&nbsp;buscando&nbsp;a una&nbsp;<span style="color:#8a234c;">Traductora&nbsp;Autónoma&nbsp;Francesa&nbsp;</span>&nbsp;para ayudarle con su proyecto, no dude en contactar conmigo.</span></p>
+            </div>
+         </div>
+         <div class="vbox wb_container" id="wb_footer" style="height: 80px;">
+         </div>
+         <div class="wb_sbg"></div>
+      </div>
+   </body>
+</html>
