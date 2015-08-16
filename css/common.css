@@ -1,4 +1,4 @@
-.wb-stl-pagetitle { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
+.wb-stl-pagetitle { font: normal bold 25px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
 .wb-stl-pagetitle a { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; font-weight: bold; font-style: normal; }
 .wb-stl-pagetitle a:hover { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #8a234c; line-height: 56px; font-weight: bold; font-style: normal; }
 .wb-stl-pagetitle ul { list-style-image: url('null'); }
@@ -36,7 +36,7 @@
 .wb-stl-footer ul { list-style-image: url('null'); }
 
 @media (min-width: 768px) {
-	.wb-stl-pagetitle { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
+	.wb-stl-pagetitle { font: normal bold 25px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
 	.wb-stl-pagetitle a { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle a:hover { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #8a234c; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle ul { list-style-image: url('null'); }
@@ -75,7 +75,7 @@
 }
 
 @media (min-width: 992px) {
-	.wb-stl-pagetitle { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
+	.wb-stl-pagetitle { font: normal bold 25px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
 	.wb-stl-pagetitle a { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle a:hover { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #8a234c; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle ul { list-style-image: url('null'); }
@@ -114,7 +114,7 @@
 }
 
 @media (min-width: 1200px) {
-	.wb-stl-pagetitle { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
+	.wb-stl-pagetitle { font: normal bold 25px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
 	.wb-stl-pagetitle a { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle a:hover { font: normal bold 30px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #8a234c; line-height: 56px; font-weight: bold; font-style: normal; }
 	.wb-stl-pagetitle ul { list-style-image: url('null'); }
